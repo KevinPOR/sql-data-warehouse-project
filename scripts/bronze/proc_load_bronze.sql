@@ -42,7 +42,7 @@ BEGIN
 	
 		RAISE NOTICE '>> Inserting Data Into: bronze.crm_cust_info';
 		COPY bronze.crm_cust_info
-		FROM 'D:/SQL Data Warehouse Project/MyVersion/sql-data-warehouse-project/datasets/source_crm/cust_info.csv'
+		FROM 'D:\SQL Data Warehouse Project\MyVersion\sql-data-warehouse-project\datasets\source_crm\cust_info.csv'
 		WITH (
 			FORMAT csv,
 			HEADER true,
@@ -110,7 +110,7 @@ BEGIN
 	
 		RAISE NOTICE '>> Inserting Data Into: bronze.erp_LOC_A101';
 		COPY bronze.erp_LOC_A101
-		FROM 'D:/SQL Data Warehouse Project/MyVersion/sql-data-warehouse-project/datasets/source_erp/LOC_A101.csv'
+		FROM 'D:\SQL Data Warehouse Project\MyVersion\sql-data-warehouse-project\datasets\source_erp\LOC_A101.csv'
 		WITH (
 			FORMAT csv,
 			HEADER true,
@@ -126,7 +126,7 @@ BEGIN
 	
 		RAISE NOTICE '>> Inserting Data Into: bronze.erp_PX_CAT_G1V2';
 		COPY bronze.erp_PX_CAT_G1V2
-		FROM 'D:/SQL Data Warehouse Project/MyVersion/sql-data-warehouse-project/datasets/source_erp/PX_CAT_G1V2.csv'
+		FROM 'D:\SQL Data Warehouse Project\MyVersion\sql-data-warehouse-project\datasets\source_erp\PX_CAT_G1V2.csv'
 		WITH (
 			FORMAT csv,
 			HEADER true,
