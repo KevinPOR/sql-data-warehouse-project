@@ -7,7 +7,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](docs/drawio/High_Level_Architecture.png)
+![Data Architecture](docs/drawio/high_hevel_architecture.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into PostgreSQL Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
@@ -79,13 +79,13 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── drawio/   
-│     ├── High_Level_Architecture.drawio        # Draw.io file shows the project's architecture
-│     ├── Data_Flow_Diagram.drawio              # Draw.io file for the data flow diagram
-│     ├── Data_Mart.drawio                      # Draw.io file for data models (star schema)
-│     ├── Integration_Model.drawio              # Draw.io how tables are related
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── drawio/
+│     ├── data_flow.drawio              # Draw.io file for the data flow diagram
+│     ├── data_mart.drawio                      # Draw.io file for data models (star schema)   
+│     ├── high_level_architecture.drawio        # Draw.io file shows the project's architecture
+│     ├── integration_model.drawio              # Draw.io how tables are related
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
