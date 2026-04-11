@@ -80,10 +80,10 @@ data-warehouse-project/
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── drawio/   
-│     ├── High Level Architecture.drawio        # Draw.io file shows the project's architecture
-│     ├── Data Flow Diagram.drawio              # Draw.io file for the data flow diagram
+│     ├── High_Level_Architecture.drawio        # Draw.io file shows the project's architecture
+│     ├── Data_Flow_Diagram.drawio              # Draw.io file for the data flow diagram
 │     ├── Data_Mart.drawio                      # Draw.io file for data models (star schema)
-│     ├── Integration Model.drawio              # Draw.io how tables are related
+│     ├── Integration_Model.drawio              # Draw.io how tables are related
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │
